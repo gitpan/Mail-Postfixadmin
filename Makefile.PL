@@ -9,7 +9,6 @@ WriteMakefile(
 		'DBI'			=> '1.612',
 		'Crypt::PasswdMD5'	=> '1.3'
 	},
-		ABSTRACT_FROM  => 'lib/Mail/Postfixadmin.pm',
-		AUTHOR         => 'Avi Greenbury <mail-postfixadmin@code.avi.co>') : ()
-	),
+	ABSTRACT_FROM  => 'lib/Mail/Postfixadmin.pm',
+	AUTHOR         => ('Avi Greenbury <mail-postfixadmin@code.avi.co>'),
 );
